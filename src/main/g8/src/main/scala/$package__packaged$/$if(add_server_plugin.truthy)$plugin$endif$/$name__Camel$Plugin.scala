@@ -18,7 +18,7 @@ import scala.jdk.CollectionConverters._
 object $name;format="Camel"$Routes extends ServerPlugin with LazyLogging {
 
   override def activate(): Unit = {
-
+    //todo: do some crazy stuff here
   }
 
 

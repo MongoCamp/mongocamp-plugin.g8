@@ -3,7 +3,7 @@
 // See https://www.foundweekends.org/giter8/testing.html#Using+the+Giter8Plugin for more details.
 lazy val mongocamp_server_plugin_g8 = (project in file(".")).
   settings(
-    name := "mongocamp-server-plugin-g8",
+    name := "mongocamp-server-$if(add_server_plugin.truthy)$plugin$endif$-g8",
     version in ThisBuild:= "1.0.0",
       test in Test := {
       val _ = (g8Test in Test).toTask("").value

@@ -1,9 +1,10 @@
-# MongoCamp Server - Micrometer Plugin
+# $name$
 
 ## Introduction
-This Plugin adds Micrometer Logging and Statistics to [MongoCamp Sever](https://github.com/MongoCamp/mongocamp-server).
+This Plugin adds some crazy features to [MongoCamp Sever](https://server.mongocamp.dev).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/MongoCamp/mongocamp-micrometer-plugin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/$github_user_or_organisation$/$github_repo_name$)
 
 ## Todo
-- Ensure that Configs won`t changed
+- Implementation
+- Documentation
