@@ -8,7 +8,7 @@ import java.util.Date
 import scala.util.Random
 
 class $name;format="Camel"$FileHandler extends FilePlugin with LazyLogging {
-  override val name: String = "$name;format=\"lower,hyphen\"$-filehandler"
+  override val name: String = "$name;format="lower,hyphen"$-filehandler"
 
   override def getFile(bucket: String, fileId: String): File = {
     logger.warn("bucket getFile return random TemporaryFile")
