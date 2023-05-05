@@ -23,6 +23,7 @@ sbt-cache/*
 /.pnpm-debug.log
 /node_modules/
 /docs/.vitepress/dist/
+/docs/.vitepress/cache/
 /docs/rest/.openapi-generator-ignore
 /docs/rest/.openapi-generator/
 /src/test/scala/dev/mongocamp/server/client-project/
